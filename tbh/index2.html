@@ -4,36 +4,41 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Tokyo Bayside Hotel</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/style2.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header>
-			<div class="globalNavi">
-				<h1><img src="img/logo.png" alt="logo"></h1>
-			<nav>
-				<ul>
-					<li><a href="＃">客室<span>ROOMS</span></a></li>
-					<li><a href="#">プラン<span>PLANS</span></a></li>
-					<li><a href="#">レストラン＆バー<span>RESTAURANTS&BARS</span></a></li>
-					<li><a href="#">アクセス<span>ACCESS</span></a></li>
-				</ul>
-				<img src="img/mainvisual.png" alt="トップ画">
-			</nav>
+
+		<div>
+			<div id="headerNavi">
+					<ul class="headerNavi">
+						<li><a href="#"><img src="img/arrow_white.png" alt="矢印">お問い合わせ</a></li>
+						<li><a href="#"><img src="img/arrow_white.png" alt="矢印">サイトマップ</a></li>
+						<li><a href="#"><img src="img/arrow_white.png" alt="矢印">言語</a></li>
+					</ul>
+			</div>
+				<div class="globalNavi">
+					<img src="img/logo.png" id="logo" alt="logo">
+				<!-- <nav id="gnavi">
+						<a href="＃">客室<br><span>ROOMS</span></a>
+						<a href="#">プラン<br><span>PLANS</span></a>
+						<a href="#">レストラン＆バー<br><span>RESTAURANTS&BARS</span></a>
+						<a href="#">アクセス<br><span>ACCESS</span></a>
+						</nav> -->
+
+					<div>
+						<img src="img/mainvisual.png" id="mainPic" alt="トップ画">
+					</div>
+				</div>
 			</div>
 
-			<div class="headerBg">
-				<ul class="headerNavi">
-					<li><a href="#"><img src="img/arrow_white.png" alt="矢印">お問い合わせ</a></li>
-					<li><a href="#"><img src="img/arrow_white.png" alt="矢印">サイトマップ</a></li>
-					<li><a href="#"><img src="img/arrow_white.png" alt="矢印">言語</a></li>
-				</ul>
-			</div>
 	</header>
 
 			<form action="reserve.php">
 
-					<section>
-						宿泊予定<span>Reservation</span>
+					<section id="reservation">
+						<h4>宿泊予約<br><span>Reservation</span></h4>
+						<div class="info">ご宿泊日
 							<select name="yearmonth" id="yearmonth">
 								<option value="201505">2015年5月</option>
 								<option value="201506">2015年6月</option>
@@ -45,8 +50,9 @@
 								<option value="25">25日</option>
 								<option value="26">26日</option>
 							</select>
+						</div>
 
-						泊・人・部屋数
+						<div class="info">泊・人・部屋数
 							<select name="night" id="night">
 								<option value="1">1泊</option>
 								<option value="2">2泊</option>
@@ -64,7 +70,11 @@
 							<option value="2">2室</option>
 							<option value="3">3室</option>
 							</select>
-						<section><img src="img/arrow_button.png" alt="矢印">検索する</section>
+						</div>
+
+						<div class="button">
+								<img src="img/arrow_button.png" alt="矢印">検索する</div>
+
 					</section>
 			</form>
 

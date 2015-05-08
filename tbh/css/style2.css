@@ -1,0 +1,101 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#headerNavi {
+	margin: 0 auto;
+	background-color: #20a4b2;
+	height: 28px;
+	width: 100%;
+}
+.headerNavi {
+	margin-left: 650px;
+	margin-top:10px;
+}
+.headerNavi li {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 6px;
+	float: left;
+}
+.headerNavi li a {
+	color: #ffffff;
+}
+
+#logo{
+	margin-left: 70px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	float: left;
+}
+#gnavi{
+	position: relative;
+	display: block;
+	margin-left:546px;
+}
+#gnavi span{
+	font-size: 10px;
+	color: gray;
+}
+/* .globalNavi{
+	margin: 10px 0 12px 0;
+} */
+
+#mainPic {
+	margin: 0;
+	padding: 0;
+	height: 400px;
+}
+#reservation {
+	background-color: #f7f0e8;
+	height: 50px;
+	width: 100%;
+	margin-top: -6px;
+	color: #22abba;
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 15px;
+}
+h4 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 15px;
+	line-height:1;
+	text-align: center;
+	float: left;
+	margin-left: 67px;
+	margin-top: 13px;
+}
+h4 span {
+	font-size: 10px;
+}
+.info {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 15px;
+	color: #7d7d7d;
+	margin-left: 40px;
+	margin-top: 16px;
+	margin-right: 53px;
+	float: left;
+}
+.button {
+	padding-top:16px;
+}
+p {
+	font-family:"ヒラギノ明朝",serif;
+}
+h2 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 25px;
+	color: #898989;
+}
+.breakfast {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 16px;
+	color: #898989;
+	background-color: #f7f0e8;
+	width:1027px;
+	height: 451px;
+}
+li{
+	list-style-type: none;
+}
