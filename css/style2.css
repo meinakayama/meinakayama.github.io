@@ -1,0 +1,418 @@
+
+	.inner{
+	  width: 1024px;
+	  margin: 0 auto;
+	  overflow:hidden;
+	}
+body {
+	margin: 0;
+	padding: 0;
+}
+#headerNavi {
+	margin: 0 auto;
+	background-color: #20a4b2;
+	height: 28px;
+	width: 100%;
+}
+.headerNavi {
+	margin-left: 660px;
+	margin-top:10px;
+}
+.headerNavi li {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 10px;
+	margin-left: 30px;
+	margin-top: 6px;
+	float: left;
+
+}
+.hn img{
+	float: left;
+	margin-left: 35px;
+	position: relative;
+}
+a:link {
+	text-decoration: none;
+}
+.headerNavi li a {
+	color: #ffffff;
+}
+#logo{
+	margin-left: 67px;
+	margin-right:190px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	float: left;
+
+}
+/* #gnavi{
+	width:600px;
+position: relative;
+	display: block;
+margin-left:546px;
+float:left;
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 15px;
+	color: #22abba;
+	text-decoration:none;
+	line-height:1;
+} */
+/* #gnavi_text {
+	float: left;
+
+} */
+
+#gnavi ul{
+	overflow:hidden;
+	display: block
+	margin-right:10px;
+	text-style-type: none;
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 15px;
+	color: #22abba;
+/* 	text-decoration:none; */
+	line-height:1;
+	list-style:none;
+	text-align: center;
+}
+#gnavi li{
+	float:left;
+	margin-top:15px;
+	margin-right:40px;
+}
+nav ul li:last-child{
+	margin-right: 0;
+	}
+#gnavi a:visited{
+	color: #22abba;
+}
+#gnavi span{
+	font-size: 10px;
+	color: #22abba;
+}
+/* .globalNavi{
+	margin: 10px 0 12px 0;
+} */
+#mainPic {
+	height: 400px;
+	width:100%;
+	margin:0;
+	padding: 0;
+	/* background:url(../img/mainvisual.png) 0 0 no-repeat; */
+	background-size:cover;
+}
+#reservation {
+	background-color: #f7f0e8;
+	height: 52px;
+	width: 100%;
+	margin-top: -6px;
+	box-shadow: 1px 1px 1px #CCC;
+
+}
+h5 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 15px;
+	line-height:1;
+	text-align: center;
+	float: left;
+	margin-left: 67px;
+	margin-top: 13px;
+	color: #22abba;
+}
+h5 span {
+	font-size: 10px;
+	color: #22abba;
+}
+.button {
+	background-color: #22abba;
+	width: 120px;
+	height: 35px;
+	margin-left: 829px;
+  position: absolute;
+	margin-top:9px;
+}
+.button a {
+	font-family: "ヒラギノ明朝",serif;
+	margin-left: 33px;
+	margin-top: 6px;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+}
+.info {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 15px;
+	color: #7d7d7d;
+	margin-left: 40px;
+	margin-top: 16px;
+	margin-right: 53px;
+	float: left;
+}
+#seeall {
+	font-family: "ヒラギノ明朝",serif;
+	font-size:10px;
+	color:#22abba;
+	margin-right: 76px;
+	float: right;
+	position: relative;
+	text-decoration: none;
+	background:url(../img/arrow_right.png) left center no-repeat;
+	padding-left:15px;
+	margin-top:0px;
+}
+h3 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 18px;
+	color: #7d7d7d;
+	margin-top: 36px;
+  padding: 11px;
+	text-align: center;
+	border-top: solid 1px #e1e1e1;
+	border-bottom: solid  1px #e1e1e1;
+}
+h3 span {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 12px;
+}
+#specialplan li{
+	float:left;
+	margin-left:32px;
+
+	box-shadow: 1px 1px 1px #CCC;
+}
+#specialplan ul{
+	width:1024px;
+	height:320px;
+	margin: 0;
+	margin-top: 50px;
+}
+#breakfast {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 16px;
+	color: #898989;
+	background-color: #f7f0e8;
+	width:100%;
+	height:450px;
+	margin-top:20px;
+}
+#bfpic {
+	margin:0;
+	width:440px;
+	margin-top:54px;
+  margin-left:91px;
+	float:left;
+	position:relative;
+}
+#bftext {
+	margin-left:500px;
+}
+.frame_top {
+	padding-top: 54px;
+	padding-left: 40px;
+}
+.frame_bottom {
+	padding-top: 40px;
+	padding-left: 40px;
+}
+h2 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size:25px;
+	color: #898989;
+	margin:0;
+	padding-top:20px;
+}
+#p1{
+	font-family: "ヒラギノ角ゴ";
+	font-size: 16px;
+	color: #898989;
+/*   text-align: center; */
+  display: block;
+	margin-top:20px;
+	margin-bottom:0;
+	padding-left:100px;
+}
+#p2{
+	font-family: "ヒラギノ角ゴ";
+	font-size: 16px;
+	color: #898989;
+/*   text-align: center; */
+  display: block;
+	margin-top:20px;
+	margin-bottom:0;
+	padding-left:70px;
+	line-height:0;
+}
+/* #menu_button {
+	border: 1px solid;
+	border-radius:5px;
+	width:200px;
+  height:48px;
+	color:#898989;
+  padding-left:0px;
+	padding-top:6px;
+	margin-top:20px;
+	margin-left: 115px;
+} */
+#menu_button {
+	border: 1px solid;
+	border-radius:5px;
+	width:200px;
+  height:48px;
+	color:#898989;
+	margin-top:20px;
+	margin-left: 115px;
+}
+#arrow_gray {
+	float: left;
+	padding-left:40px;
+	padding-top:21px;
+}
+#menu {
+	margin:0px;
+	position: relative;
+	padding-top:13px;
+	margin-left:54px;
+	color:#898989;
+}
+h4 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size:18px;
+	color: #7d7d7d;
+	margin-top:52px;
+  padding-top:11px;
+	padding-bottom:11px;
+	padding-left:67px;
+	float:left;
+	border-top:solid 1px #e1e1e1;
+	border-bottom:solid  1px #e1e1e1;
+	width:583px;
+}
+h4 span {
+	font-family: "ヒラギノ明朝",serif;
+	font-size:12px;
+}
+#news{
+/* 	width: 583px; */
+	font-family: "ヒラギノ明朝",helvetica;
+	font-size:13px;
+	color:#7d7d7d
+	width:100%;
+	float:left;
+}
+#seeall2 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size:10px;
+	color:#22abba;
+	margin-left:554px;
+  float:left;
+	position: relative;
+	text-decoration: none;
+	background:url(../img/arrow_right.png) left center no-repeat;
+	padding-left:15px;
+	margin-top:-5px;
+/* 	margin-top:19px;
+ */	width:90px;
+}
+#details ul{
+	color:#7d7d7d;
+	line-height:3;
+	padding-left:67px;
+  margin-top:-5px;
+	width: 583px;
+	height:470px;
+}
+#details li img{
+	padding-left:18px;
+	padding-right:18px;
+	padding-bottom:-100px;
+}
+#details li{
+	border-bottom:dotted 1px #e1e1e1;
+}
+#ad {
+/* 	float:right; */
+	width:270px;
+	height:300px;
+	margin-left:700px;
+	margin-top:-430px;
+/* 	margin-top:100px; */
+}
+#ad img{
+	margin-bottom: 26px;
+}
+#seeall3 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size:10px;
+	color:#22abba;
+	margin-left:900px;
+  float:left;
+	position: relative;
+	text-decoration: none;
+	background:url(../img/arrow_top.png) left center no-repeat;
+	padding-left:15px;
+	margin-top:-20px;
+/* 	margin-top:19px;
+ */	width:90px;
+}
+footer {
+	width:100%;
+	height:400px;
+	margin-top:50px;
+	float:left;
+	background-color:#eeeeee;
+	color:#7d7d7d;
+}
+footer li {
+	font-family: "ヒラギノ角ゴ";
+	font-size: 11px;
+	color:#7d7d7d;
+	text-decoration: none;
+	line-height:2;
+}
+.footernav{
+	width:1024px;
+	height:100px;
+}
+.b_nav {
+	margin-top:20px;
+	margin-left: 30px;
+	width:160px;
+	height:230px;
+	float:left;
+}
+.b_nav_last {
+	margin-top:20px;
+	margin-left: 30px;
+	width:160px;
+}
+.b_nav a:visited {
+	color:#7d7d7d;
+}
+.b_nav li:first-child {
+	font-size: 13px;
+	color:#7d7d7d;
+}
+#footer_nav {
+	width:100%;
+	margin-top:60px;
+	text-align:center;
+	font-family:"ヒラギノ明朝",serif;
+	font-size:12px;
+	text-align:center;
+}
+#logo_btm{
+	width:300px;
+	margin:40px auto 10px;
+/* 	float:center; */
+}
+#footer_info {
+  width:400px;
+	margin:0px auto 10px;
+
+}
+li {
+	list-style-type:none;
+}
+p {
+	font-family:"ヒラギノ明朝",serif;
+}
