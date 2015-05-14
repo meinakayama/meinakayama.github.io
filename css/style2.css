@@ -14,8 +14,9 @@ body {
 	width: 100%;
 }
 .headerNavi {
-	margin-left: 660px;
-	margin-top:6px;
+	margin:4px 0 0 640px;
+/* 	margin-left: 660px;
+margin-top:6px; */
 }
 .headerNavi li {
 	font-family: "ヒラギノ明朝",serif;
@@ -23,6 +24,10 @@ body {
 	margin-left: 30px;
 	margin-top: 2px;
 	float: left;
+}
+.arrow_header {
+	background: url(../img/arrow_header.png) left center no-repeat;
+	padding-left:10px;
 }
 .hn img{
 	float: left;
@@ -138,20 +143,24 @@ h5 span {
 	font-family: "ヒラギノ明朝",serif;
 	font-size:10px;
 	color:#22abba;
-	margin-right: 76px;
-	float: right;
+	margin-left:865px;
+/* 	float: right; */
 	position: relative;
 	text-decoration: none;
 	background:url(../img/arrow_right.png) left center no-repeat;
 	padding-left:15px;
 	margin-top:0px;
 }
+.title {
+	width:890px;
+	margin: 0 auto;
+}
 h3 {
 	font-family: "ヒラギノ明朝",serif;
 	font-size: 18px;
 	color: #7d7d7d;
 	margin-top: 36px;
-  padding: 11px;
+	padding: 11px;
 	text-align: center;
 	border-top: solid 1px #e1e1e1;
 	border-bottom: solid  1px #e1e1e1;
@@ -160,35 +169,46 @@ h3 span {
 	font-family: "ヒラギノ明朝",serif;
 	font-size: 12px;
 }
+#specialplan ul{
+	width:890px;
+	height:320px;
+	margin: 20px auto 0;
+	padding:0;
+}
+.speacialplan_pic {
+/* 	float:left; */
+	margin-right:30px;
+}
 #specialplan li{
 	float:left;
-	margin-left:32px;
+	margin-left:39px;
+/* 	margin-left:32px; */
 	box-shadow: 1px 1px 1px #CCC;
 }
-#specialplan ul{
-	width:1024px;
-	height:320px;
-	margin: 0;
-	margin-top: 50px;
+#specialplan li:first-child{
+	float:left;
+	margin-left:0px;
+/* 	margin-left:32px; */
+	box-shadow: 1px 1px 1px #CCC;
 }
 #breakfast {
-	font-family: "ヒラギノ明朝",serif;
-	font-size: 16px;
-	color: #898989;
-	background-color: #f7f0e8;
-	width:100%;
 	height:450px;
-	margin-top:20px;
+	width:100%;
+	background-color: #f7f0e8;
+	margin-top:40px auto 0;
 }
-#bfpic {
+.bfpic {
 	margin:0;
 	width:440px;
 	margin-top:54px;
-  margin-left:91px;
+  margin-left:75px;
 	float:left;
 	position:relative;
 }
 #bftext {
+	font-family: "ヒラギノ明朝",serif;
+	font-size: 16px;
+	color: #898989;
 	margin-left:500px;
 }
 .frame_top {
@@ -246,24 +266,7 @@ h2 {
 	margin-left:54px;
 	color:#898989;
 }
-h4 {
-/* 	width:100%; */
-	font-family: "ヒラギノ明朝",serif;
-	font-size:18px;
-	color: #7d7d7d;
-	margin-top:52px;
-  padding-top:11px;
-	padding-bottom:11px;
-	padding-left:67px;
-	float:left;
-	border-top:solid 1px #e1e1e1;
-	border-bottom:solid  1px #e1e1e1;
-	width:583px;
-}
-h4 span {
-	font-family: "ヒラギノ明朝",serif;
-	font-size:12px;
-}
+
 #news{
 	font-family: "ヒラギノ明朝",helvetica;
 	font-size:13px;
@@ -272,26 +275,32 @@ h4 span {
 	heigh:383px;
 	float:left;
 }
-#seeall2 {
+
+.info_left {
+	width:580px;
+	float:left;
+	margin: 0 auto;
+}
+
+h4 {
+/* 	width:100%; */
 	font-family: "ヒラギノ明朝",serif;
-	font-size:10px;
-	color:#22abba;
-	margin-left:554px;
-  float:left;
-	position: relative;
-	text-decoration: none;
-	background:url(../img/arrow_right.png) left center no-repeat;
-	padding-left:15px;
-	margin-top:-5px;
- */	width:90px;
+	font-size:18px;
+	color: #7d7d7d;
+	margin-top:52px;
+  padding:11px 0 11px;
+	border-top:solid 1px #e1e1e1;
+	border-bottom:solid  1px #e1e1e1;
+}
+h4 span {
+	font-family: "ヒラギノ明朝",serif;
+	font-size:12px;
 }
 #details ul{
+	width:580px;
 	color:#7d7d7d;
 	line-height:3;
-	padding-left:67px;
-  margin-top:-5px;
-	width: 583px;
-	height:470px;
+	margin-top:60px;
 }
 #details li img{
 	padding-left:18px;
@@ -301,20 +310,33 @@ h4 span {
 #details li{
 	border-bottom:dotted 1px #e1e1e1;
 }
-#ad {
+
+#seeall2 {
+	font-family: "ヒラギノ明朝",serif;
+	font-size:10px;
+	color:#22abba;
+  float:right;
+	position: relative;
+	text-decoration: none;
+	background:url(../img/arrow_right.png) left center no-repeat;
+	padding-left:15px;
+	margin-top:-5px;
+ */	width:90px;
+}
+.ad {
 	width:270px;
 	height:300px;
-	margin-left:680px;
-	margin-top:-426px;
+/* 	margin-left:680px;
+margin-top:-426px; */
 }
-#ad img{
+/* #ad img{
 	margin-bottom: 26px;
-}
+} */
 #seeall3 {
 	font-family: "ヒラギノ明朝",serif;
 	font-size:10px;
 	color:#22abba;
-	margin-left:965px;
+	margin-left:875px;
 /*   float:left; */
 	position: relative;
 /* 	text-decoration: none; */
@@ -360,6 +382,10 @@ footer li {
 .b_nav li:first-child {
 	font-size: 13px;
 	color:#7d7d7d;
+}
+.arrow {
+	background:url(../img/arrow_gray.png) left center no-repeat;
+	padding-left:13px;
 }
 #footer_nav {
 	width:100%;

@@ -11,9 +11,9 @@
 		<div id="headerNavi">
 				<div class="inner">
 					<ul class="headerNavi">
-						<li><a href="#"><img class="hn_arrorw" src="img/arrow_white.png" alt="矢印">お問い合わせ</a></li>
-						<li><a href="#"><img class="hn_arrorw" src="img/arrow_white.png" alt="矢印">サイトマップ</a></li>
-						<li><a href="#"><img class="hn_arrorw" src="img/arrow_white.png" alt="矢印">言語</a></li>
+						<li class="arrow_header"><a href="#">お問い合わせ</a></li>
+						<li class="arrow_header"><a href="#">サイトマップ</a></li>
+						<li class="arrow_header"><a href="#">言語</a></li>
 					</ul>
 				</div>
 		</div>
@@ -23,7 +23,7 @@
 					<img src="img/logo.png" id="logo" alt="logo">
 						<nav id="gnavi">
 							<ul>
-							<li><a href="#">客室<br><span>ROOMS</span></a></li>
+							<li><a href="rooms.html">客室<br><span>ROOMS</span></a></li>
 							<li><a href="#">プラン<br><span>PLANS</span></a>
 							</li><li><a href="#">レストラン＆バー<br><span>RESTAURANTS&BARS</span></a></li>
 							<li><a href="#">アクセス<br><span>ACCESS</span></a></li>
@@ -77,58 +77,70 @@
 				</section>
 			</form>
 
-			<section id="specialplan">
-				<div class="inner">
-					<h3>特別プラン｜<span>SPECIAL PLANS</span></h3>
-					<a href="#"><p id="seeall">一覧はこちらから</p></a>
-						<ul>
-							<li><img src="img/popular_plan.png" alt="人気プラン"></li>
-							<li><img src="img/anniversary_plan.png" alt="記念日プラン"></li>
-							<li><img src="img/lady's_plan.png" alt="レディースプラン"></li>
-						</ul>
-				</div>
-			</section>
-			<section id="breakfast">
-				<div class="inner">
-					<div id="bfpic"><img src="img/breakfast.png" alt="朝食プラン">
-				</div>
-					<div id="bftext">
-						<img class="frame_top" src="img/frame_top.png" alt="フレームトップ">
-						<h2>好きな朝食を、お部屋で楽しめる。</h2>
-						<p id="p1">ホテルシェフこだわりの朝食で、</p>
-						<p id="p2">幸せな一日の始まりをお部屋にどうぞ。</p>
-						<img class="frame_bottom"src="img/frame_bottom.png" alt="フレームボトム">
-						<div id="menu_button">
-							<a href="#"><img id="arrow_gray"src="img/arrow_gray.png" alt="矢印"></a>
-								<div>
-										<a href="#"><p id="menu">メニューを見る</p></a>
-								</div>
+			<div class="inner">
+				<section id="specialplan">
+						<div class="title">
+							<h3>特別プラン｜<span>SPECIAL PLANS</span></h3>
+						</div>
+						<a href="#"><p id="seeall">一覧はこちらから</p></a>
+							<ul>
+								<li><img src="img/popular_plan.png" class="specialplan_pic" alt="人気プラン"></li>
+								<li><img src="img/anniversary_plan.png" class="specialplan_pic" alt="記念日プラン"></li>
+								<li><img src="img/lady's_plan.png" class="specialplan_pic" alt="レディースプラン"></li>
+							</ul>
+				</section>
+			</div>
+
+
+				<section id="breakfast">
+					<div class="inner">
+						<div class="bfpic"><img src="img/breakfast.png" alt="朝食プラン"></div>
+						<div id="bftext">
+							<img class="frame_top" src="img/frame_top.png" alt="フレームトップ">
+							<h2>好きな朝食を、お部屋で楽しめる。</h2>
+							<p id="p1">ホテルシェフこだわりの朝食で、</p>
+							<p id="p2">幸せな一日の始まりをお部屋にどうぞ。</p>
+							<img class="frame_bottom"src="img/frame_bottom.png" alt="フレームボトム">
+							<div id="menu_button">
+								<a href="#"><img id="arrow_gray"src="img/arrow_gray.png" alt="矢印"></a>
+									<div>
+											<a href="#"><p id="menu">メニューを見る</p></a>
+									</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</section>
+				</section>
+
 
 			<div class=inner>
 				<section id="news">
-					<h4>お知らせ｜<span>INFORMATION</span></h4>
-					<a href="#"><p id="seeall2">一覧はこちらから</p></a>
-					<div id="details">
-						<ul>
-							<li>2015.02.01<img src="img/stay.png" alt="宿泊">改修工事終了のお知らせ</li>
-							<li>2015.02.01<img src="img/restaurant.png" alt="レストラン">ランチタイム営業再開のご案内</li>
-							<li>2015.02.01<img src="img/notice.png" alt="お知らせ">【2014年11月1日販売スタート】クリスマスケーキ</li>
-							<li>2015.02.01<img src="img/event.png" alt="イベント">【2014年11月1日販売スタート】クリスマス・ハンバー</li>
-							<li>2015.02.01<img src="img/etc.png" alt="その他">2015年新卒採用エントリー受付スタート</li>
-						</ul>
-						<div id="ad">
-							<a href="#"></a><img src="img/buffet.jpg" alt="buffet"></a>
-							<a href="#"></a><img src="img/limited.jpg" alt="limited"></a>
-						</div>
-				 </div>
+					<div class="info_left">
+							<h4>お知らせ｜<span>INFORMATION</span></h4>
+							<a href="#"><p id="seeall2">一覧はこちらから</p></a>
+							<div id="details">
+								<ul>
+									<li>2015.02.01<img src="img/stay.png" alt="宿泊">改修工事終了のお知らせ</li>
+									<li>2015.02.01<img src="img/restaurant.png" alt="レストラン">ランチタイム営業再開のご案内</li>
+									<li>2015.02.01<img src="img/notice.png" alt="お知らせ">【2014年11月1日販売スタート】クリスマスケーキ</li>
+									<li>2015.02.01<img src="img/event.png" alt="イベント">【2014年11月1日販売スタート】クリスマス・ハンバー</li>
+									<li>2015.02.01<img src="img/etc.png" alt="その他">2015年新卒採用エントリー受付スタート</li>
+								</ul>
+							</div>
+					</div>
+
+
+							<div class="ad">
+								<a href="#"></a><img src="img/buffet.jpg" alt="buffet"></a>
+								<a href="#"></a><img src="img/limited.jpg" alt="limited"></a>
+							</div>
 				</section>
 			</div>
-					<div>
-						<a href="#"><p id="seeall3">トップに戻る</p></a>
+
+
+
+
+					<div class="inner">
+						<a href="index.html"><p id="seeall3">トップに戻る</p></a>
 					</div>
 				<footer>
 					<div class="inner">
@@ -136,49 +148,49 @@
 							<div class="b_nav">
 								<ul>
 									<li>客室</li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">エコノミー</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">スタンダード</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">モデレート</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">スーペリア</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">デラックス</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">ジュニアスイート</a></li>
+									<li class="arrow"><a href="#">エコノミー</a></li>
+									<li class="arrow"><a href="#">スタンダード</a></li>
+									<li class="arrow"><a href="#">モデレート</a></li>
+									<li class="arrow"><a href="#">スーペリア</a></li>
+									<li class="arrow"><a href="#">デラックス</a></li>
+									<li class="arrow"><a href="#">ジュニアスイート</a></li>
 								</ul>
 							</div>
 							<div class="b_nav">
 								<ul>
 									<li>プラン</li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">季節プラン</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">人気プラン</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">記念日プラン</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">レディースプラン</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">ビューティープラン</a></li>
+									<li class="arrow"><a href="#">季節プラン</a></li>
+									<li class="arrow"><a href="#">人気プラン</a></li>
+									<li class="arrow"><a href="#">記念日プラン</a></li>
+									<li class="arrow"><a href="#">レディースプラン</a></li>
+									<li class="arrow"><a href="#">ビューティープラン</a></li>
 								</ul>
 							</div>
 							<div class="b_nav">
 								<ul>
 									<li>レストラン＆バー</li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">スペシャルメニュー</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">朝食</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">ランチ</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">ディナー</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">ティータイム</a></li>
+									<li class="arrow"><a href="#">スペシャルメニュー</a></li>
+									<li class="arrow"><a href="#">朝食</a></li>
+									<li class="arrow"><a href="#">ランチ</a></li>
+									<li class="arrow"><a href="#">ディナー</a></li>
+									<li class="arrow"><a href="#">ティータイム</a></li>
 								</ul>
 							</div>
 							<div class="b_nav">
 								<ul>
 									<li>アクセス</li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">マップ</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">交通アクセス</a></li>
+									<li class="arrow"><a href="#">マップ</a></li>
+									<li class="arrow"><a href="#">交通アクセス</a></li>
 								</ul>
 							</div>
 							<div class="b_nav">
 								<ul>
 									<li>よくあるご質問</li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">宿泊</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">宴会・ミーティング</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">施設</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">ホテル全般</a></li>
-									<li><a href="#"><img src="img/arrow_gray.png" alt="矢印">ルームサービス</a></li>
+									<li class="arrow"><a href="#">宿泊</a></li>
+									<li class="arrow"><a href="#">宴会・ミーティング</a></li>
+									<li class="arrow"><a href="#">施設</a></li>
+									<li class="arrow"><a href="#">ホテル全般</a></li>
+									<li class="arrow"><a href="#">ルームサービス</a></li>
 								</ul>
 							</div>
 						</div>
