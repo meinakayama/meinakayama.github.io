@@ -1,4 +1,4 @@
-	.inner{
+.inner{
 	  width: 1024px;
 	  margin: 0 auto;
 	  overflow:hidden;
@@ -14,8 +14,7 @@ body {
 	width: 100%;
 }
 .headerNavi {
-	margin-left: 660px;
-	margin-top:6px;
+	margin:4px 0 0 640px;
 }
 .headerNavi li {
 	font-family: "ヒラギノ明朝",serif;
@@ -23,6 +22,10 @@ body {
 	margin-left: 30px;
 	margin-top: 2px;
 	float: left;
+}
+.arrow_header {
+	background: url(../img/arrow_header.png) left center no-repeat;
+	padding-left:10px;
 }
 .hn img{
 	float: left;
@@ -55,34 +58,31 @@ a:link {
 }
 .room_top {
 	width:1024px;
-/* 	padding-top:30px;
-margin-top:-33px; */
+	vertical-align: bottom;
 }
 .room {
 	width:867px;
-	height:322px;
 	float:left;
-/* 	width:1024px; */
 	margin:0 auto;
-}
-.room_smalls img {
-	width:154px;
-/* 	margin-top:30px; */
-	padding-bottom:2px;
-	padding-left:3px;
 	vertical-align: bottom;
-
 }
-
+.room_smalls {
+	margin:0;
+	padding:0 0 0px 0px;
+}
+.pic{
+	width:154px;
+	height:106px;
+	margin:0 0 2px 2px;
+	vertical-align: bottom;
+}
 #gnavi ul{
 	overflow:hidden;
-	display: block
+	display: block;
 	margin-right:10px;
-	text-style-type: none;
 	font-family: "ヒラギノ明朝",serif;
 	font-size: 15px;
 	color: #22abba;
-/* 	text-decoration:none; */
 	line-height:1;
 	list-style:none;
 	text-align: center;
@@ -110,53 +110,6 @@ nav ul li:last-child{
 	color: #1a838f;
 	text-decoration:none;
 }
-/* #reservation {
-	background-color: #f7f0e8;
-	height: 52px;
-	width: 100%;
-	margin-top: -6px;
-	box-shadow: 1px 1px 1px #CCC;
-}
-h5 {
-	font-family: "ヒラギノ明朝",serif;
-	font-size: 15px;
-	line-height:1;
-	text-align: center;
-	float: left;
-	margin-left: 67px;
-	margin-top: 13px;
-	color: #22abba;
-}
-h5 span {
-	font-size: 10px;
-	color: #22abba;
-}
-.button {
-	background-color: #22abba;
-	width: 120px;
-	height: 35px;
-	margin-left: 829px;
-  position: absolute;
-	margin-top:9px;
-}
-.button a {
-	font-family: "ヒラギノ明朝",serif;
-	margin-left: 33px;
-	margin-top: 6px;
-	color: white;
-	text-decoration: none;
-	position: absolute;
-}
-.info {
-	font-family: "ヒラギノ明朝",serif;
-	font-size: 15px;
-	color: #7d7d7d;
-	margin-left: 40px;
-	margin-top: 16px;
-	margin-right: 53px;
-	float: left;
-}
- */
 .room_info {
 	width:100%;
 	text-align:center;
@@ -165,7 +118,6 @@ h5 span {
 .room_info p {
 	width:100%;
 	marign:0;
-	padding:0;
 	font-family: "ヒラギノ明朝",serif;
 	font-size:24px;
 	color:#7d7d7d;
@@ -173,49 +125,41 @@ h5 span {
 }
 .room_info p span{
 	width:100%;
-/* 	marign:0 auto; */
 	font-family: "ヒラギノ明朝",serif;
 	font-size:20px;
 	color:#7d7d7d;
 }
 .room_text p {
 	font-family: "ヒラギノ角ゴ";
-	font-size: 12px;
+	font-size: 13px;
 	color:#7d7d7d;
 	line-height:2;
 }
 .reserve {
 	border-radius:5px;
 	width:200px;
-  height:45px;
 	background-color:#22abba;
-	margin:30px auto;
-	padding-top:0px;
+	margin:50px auto 20px;
+	padding:14px 0px 14px 0px ;
 }
-.arrow_white {
-	float:left;
-	padding-left:48px;
-	padding-top:9px;
-	padding-right:0px;
-}
-.reserve_text p {
+.reserve_text{
+	background: url(../img/arrow_reserve.png) left center no-repeat;
 	font-family: "ヒラギノ明朝",serif;
 	font-size:16px;
-	color:white;
-	padding-left:-10px;
-	padding-top:7px;
+	color: white;
+	padding-left:20px;
 }
 .information {
-	margin:0 auto;
+	margin:35px auto 0;
 	width:890px;
 }
 h3 {
-	width:890px;
+	width:100%;
 	font-family: "ヒラギノ明朝",serif;
 	font-size: 18px;
 	color: #7d7d7d;
-	margin: 30px auto 0;
-  padding: 11px;
+	margin: 0 auto;
+  padding: 11px 0;
 	text-align: center;
 	border-top: solid 1px #e1e1e1;
 	border-bottom: solid  1px #e1e1e1;
@@ -224,25 +168,13 @@ h3 span {
 	font-family: "ヒラギノ明朝",serif;
 	font-size: 12px;
 }
-/* table {
-	border:2px;
-	width:890px;
-	cellspacing:20px;
-	cellpadding:20px;
-	border-color: #7d7d7d;
-	padding-top:36px;
-} */
 table{
 	margin-top:45px;
-	width:910px;	/* margin-left:58px; */
+	width:890px;
 	text-align:left;
 	border: 1px solid #eeeeee;
 	border-collapse: collapse;
 }
-/* table, th, td {
-
-	width:890px;
-} */
 table th {
 	width:80px;
 	font-family:  "ヒラギノ明朝",serif;
@@ -250,50 +182,44 @@ table th {
 	color:#7d7d7d;
 	padding:11px 0px 11px 20px;
 	border: 1px solid #eeeeee;
-	background-color:#eeeeee:
+	background-color:#f7f7f7;
 }
 table td {
-	width:620px;
 	font-family: "ヒラギノ角ゴ";
 	font-size: 12px;
 	color:#7d7d7d;
 	padding:11px 20px 11px 20px;
 	border: 1px solid #eeeeee;
 }
-
 .floorPlan {
-	margin-top:0 auto;
+	margin:35px auto 0;
 	width:890px;
 	padding-top:20px;
-/* 	padding-left:67px; */
 	position:relative;
 }
 .floor_img {
 	margin:36px auto 0;
 	width:364px;
-
 }
-#seeall {
-	font-family: "ヒラギノ明朝",serif;
-	font-size:10px;
-	color:#22abba;
-	margin-right: 76px;
-	float: right;
-	position: relative;
-	text-decoration: none;
-	background:url(../img/arrow_right.png) left center no-repeat;
-	padding-left:15px;
-	margin-top:0px;
+.room_list {
+	width:890px;
+	margin:50px auto 0;
 }
-
+.room_pic {
+	width: 890px;
+	margin:36px auto 0;
+}
+.room_class {
+	width:440px;
+	margin-bottom:5px;
+	vertical-align:bottom
+}
 #seeall3 {
 	font-family: "ヒラギノ明朝",serif;
 	font-size:10px;
 	color:#22abba;
-	margin-left:965px;
-/*   float:left; */
+	margin-left:875px;
 	position: relative;
-/* 	text-decoration: none; */
 	background:url(../img/arrow_top.png) left center no-repeat;
 	padding-left:15px;
 	margin-top:25px;
@@ -316,8 +242,7 @@ footer li {
 }
 .footernav{
 	width:1024px;
-/* 	height:100px;
- */}
+}
 .b_nav {
 	margin-top:20px;
 	margin-left: 30px;
@@ -336,6 +261,10 @@ footer li {
 .b_nav li:first-child {
 	font-size: 13px;
 	color:#7d7d7d;
+}
+.arrow {
+	background:url(../img/arrow_gray.png) left center no-repeat;
+	padding-left:13px;
 }
 #footer_nav {
 	width:100%;

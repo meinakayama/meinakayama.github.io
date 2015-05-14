@@ -15,8 +15,6 @@ body {
 }
 .headerNavi {
 	margin:4px 0 0 640px;
-/* 	margin-left: 660px;
-margin-top:6px; */
 }
 .headerNavi li {
 	font-family: "ヒラギノ明朝",serif;
@@ -59,9 +57,8 @@ a:link {
 }
 #gnavi ul{
 	overflow:hidden;
-	display: block
+	display: block;
 	margin-right:10px;
-	text-style-type: none;
 	font-family: "ヒラギノ明朝",serif;
 	font-size: 15px;
 	color: #22abba;
@@ -97,7 +94,7 @@ nav ul li:last-child{
 	background-color: #f7f0e8;
 	height: 52px;
 	width: 100%;
-	margin-top: -6px;
+	margin-top: 0px;
 	box-shadow: 1px 1px 1px #CCC;
 }
 h5 {
@@ -114,28 +111,62 @@ h5 span {
 	font-size: 10px;
 	color: #22abba;
 }
+#yearmonth {
+	height:25px;
+	border:solid 1px #ccc;
+	border-radius:0;
+	color:#7d7d7d;
+}
+#day {
+	height:25px;
+	border:solid 1px #ccc;
+	color:#7d7d7d;
+}
+#night {
+	height:25px;
+	border:solid 1px #ccc;
+	color:#7d7d7d;
+}
+#people {
+	height:25px;
+	border:solid 1px #ccc;
+	color:#7d7d7d;
+}
+#room {
+	height:25px;
+	border:solid 1px #ccc;
+	color:#7d7d7d;
+}
 .button {
 	background-color: #22abba;
 	width: 120px;
 	height: 35px;
-	margin-left: 829px;
+	margin-left: 840px;
   position: absolute;
 	margin-top:9px;
+
 }
 .button a {
 	font-family: "ヒラギノ明朝",serif;
-	margin-left: 33px;
+	margin-left: 22px;
 	margin-top: 6px;
 	color: white;
 	text-decoration: none;
 	position: absolute;
+	background: url(../img/arrow_reserve.png) left center no-repeat;
+	padding-left:15px;
+}
+#yearmonth option {
+	padding:7px 14px;
+	background-color:white;
+	border-style: solid 1px ##7d7d7d;
 }
 .info {
 	font-family: "ヒラギノ明朝",serif;
 	font-size: 15px;
 	color: #7d7d7d;
 	margin-left: 40px;
-	margin-top: 16px;
+	margin-top: 13px;
 	margin-right: 53px;
 	float: left;
 }
@@ -144,7 +175,6 @@ h5 span {
 	font-size:10px;
 	color:#22abba;
 	margin-left:865px;
-/* 	float: right; */
 	position: relative;
 	text-decoration: none;
 	background:url(../img/arrow_right.png) left center no-repeat;
@@ -176,26 +206,23 @@ h3 span {
 	padding:0;
 }
 .speacialplan_pic {
-/* 	float:left; */
 	margin-right:30px;
 }
 #specialplan li{
 	float:left;
 	margin-left:39px;
-/* 	margin-left:32px; */
 	box-shadow: 1px 1px 1px #CCC;
 }
 #specialplan li:first-child{
 	float:left;
 	margin-left:0px;
-/* 	margin-left:32px; */
 	box-shadow: 1px 1px 1px #CCC;
 }
 #breakfast {
 	height:450px;
 	width:100%;
 	background-color: #f7f0e8;
-	margin-top:40px auto 0;
+	margin:20px auto 0;
 }
 .bfpic {
 	margin:0;
@@ -270,27 +297,27 @@ h2 {
 #news{
 	font-family: "ヒラギノ明朝",helvetica;
 	font-size:13px;
-	color:#7d7d7d
-	width:100%;
-	heigh:383px;
-	float:left;
+	color:#7d7d7d;
+	width:890px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-top:52px;
 }
 
-.info_left {
+.information {
 	width:580px;
 	float:left;
-	margin: 0 auto;
+	margin:0 auto;
+	padding:0;
 }
-
 h4 {
-/* 	width:100%; */
 	font-family: "ヒラギノ明朝",serif;
 	font-size:18px;
 	color: #7d7d7d;
-	margin-top:52px;
   padding:11px 0 11px;
 	border-top:solid 1px #e1e1e1;
 	border-bottom:solid  1px #e1e1e1;
+	margin-top:0;
 }
 h4 span {
 	font-family: "ヒラギノ明朝",serif;
@@ -301,16 +328,22 @@ h4 span {
 	color:#7d7d7d;
 	line-height:3;
 	margin-top:60px;
+	padding:0;
 }
 #details li img{
 	padding-left:18px;
 	padding-right:18px;
-	padding-bottom:-100px;
 }
 #details li{
 	border-bottom:dotted 1px #e1e1e1;
 }
-
+.ad {
+	width:270px;
+	float:right;
+}
+.ad img {
+	margin-bottom:27px;
+}
 #seeall2 {
 	font-family: "ヒラギノ明朝",serif;
 	font-size:10px;
@@ -321,25 +354,14 @@ h4 span {
 	background:url(../img/arrow_right.png) left center no-repeat;
 	padding-left:15px;
 	margin-top:-5px;
- */	width:90px;
+	width:90px;
 }
-.ad {
-	width:270px;
-	height:300px;
-/* 	margin-left:680px;
-margin-top:-426px; */
-}
-/* #ad img{
-	margin-bottom: 26px;
-} */
 #seeall3 {
 	font-family: "ヒラギノ明朝",serif;
 	font-size:10px;
 	color:#22abba;
 	margin-left:875px;
-/*   float:left; */
 	position: relative;
-/* 	text-decoration: none; */
 	background:url(../img/arrow_top.png) left center no-repeat;
 	padding-left:15px;
 	margin-top:25px;
@@ -362,8 +384,7 @@ footer li {
 }
 .footernav{
 	width:1024px;
-/* 	height:100px;
- */}
+}
 .b_nav {
 	margin-top:20px;
 	margin-left: 30px;
