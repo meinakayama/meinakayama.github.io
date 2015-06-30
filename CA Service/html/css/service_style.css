@@ -1,0 +1,322 @@
+.inner{
+	width:1280px;
+	margin:0 auto;
+	overflow:hidden;
+}
+li {
+	list-style-type:none;
+	color: #82be28;
+}
+
+#top {
+	margin:0 auto;
+/* 	height:100px; */
+	width:100%;
+}
+.top_logo {
+	width:770px;
+	height:45px;
+	float:left;
+	margin:20px 0 0 0px;
+	padding:0;
+	position:relative;
+}
+.sns_icons {
+	width:350px;
+	float:right;
+	margin-top:10px;
+}
+.hnavi li {
+	float:left;
+	display:inline-block;
+	margin-right:16px;
+	margin-top:4px;
+}
+.searchbox {
+	float:right;
+}
+.globalNavi {
+	width:508px;
+	float:right;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#gnavi ul{
+	margin-top:0px;
+	margin-bottom:0px;
+	overflow:hidden;
+	display: block;
+	font-family:"ヒラギノ角ゴ Pro W6",HiraKakuPro-W6;
+	font-size: 14px;
+	list-style:none;
+	}
+	#gnavi li{
+		display:inline-block;
+		margin-left:22px;
+		text-decoration:none;
+	}
+	#gnavi li a {
+		text-decoration:none;
+		color: #82be28;
+	}
+	#gnavi li a:hover {
+		color: #2d8c3c;
+	}
+
+
+/* contents */
+.contents {
+	width:100%;
+	margin-top:13px;
+	}
+.video {
+	width:797px;
+	height:520px;
+	float:left;
+	overflow:hidden;
+}
+.service {
+	width:483px;
+	height:2000px;
+	height:520px;
+	float:left;
+	background-color:#f2f2f2;
+	overflow:scroll;
+}
+.service_top_pic {
+	width:483px;
+	height:300px;
+}
+.service_info {
+	padding:0 30px;
+	margin:0;
+}
+.service_info h2{
+	font-family:"ヒラギノ角ゴ Pro W6",HiraKakuPro-W6;
+	font-size:25px;
+	color:#767676;
+	padding:0;
+	margin:20px 0;
+}
+.official_page {
+	margin:50px 0 20px 0;
+}
+.buttons {
+	padding: 0 0 28px 10px;
+}
+
+table {
+	width:423px;
+	height:206px;
+	color:#767676;
+	border:5px;
+	margin: 20px 0 50px 0;
+}
+table th {
+	background-color:#e5e5e5;
+	width:209px;
+	border:5px;
+	border-color:red;
+}
+.screen_img {
+	height:225px;
+	position:relative;
+	margin-bottom:50px;
+}
+.screen_shots {
+	margin:0 15px;
+}
+.screen_arrow_left {
+	top:95px;
+	left:15px;
+	position:absolute;
+}
+.screen_arrow_right {
+	top:95px;
+	right:15px;
+	position:absolute;
+}
+
+
+/* 関連サービス */
+h3 {
+	height:40px;
+	font-family:"ヒラギノ角ゴ Pro W3",HiraKakuPro-W3;
+	font-size:20px;
+	color:white;
+	text-align: center;
+	background-color: #bfbfbf;
+	padding-top: 15px;
+}
+.related_info {
+	padding:0 30px;
+}
+.related_info ul {
+	padding:0;
+	margin:0;
+}
+.related_info li {
+	height:146px;
+	background-color:white;
+	margin-bottom:18px;
+}
+h4 {
+	font-family:"ヒラギノ角ゴ Pro W6",HiraKakuPro-W6;
+	font-size:15px;
+	color:#565454;
+	float:left;
+	margin: 0;
+	padding:15px 0 0 15px;
+	text-decoration: none;
+}
+.related_info p {
+	width:240px;
+	text-decoration: none;
+	float:left;
+	padding:0 0 0 15px;
+}
+.seemore {
+	float:left;
+	padding:10px 0 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+p {
+	font-family:"ヒラギノ角ゴ Pro W3",HiraKakuPro-W3;
+	font-size:14px;
+	line-height:24px;
+	color:#767676;
+}
+
+
+
+/* info */
+	.info {
+	width:100%;
+	height:584px;
+	position:relative;
+	overflow:hidden;
+}
+.infobar {
+	height:60px;
+	padding:0px;
+	margin:0px;
+}
+.info p{
+	width:900px;
+	font-size:20px;
+	color:#7d7d7d;
+	padding:16px 0 0 60px;
+	margin:0;
+	float:left;
+}
+.see_all_info {
+	float:right;
+	margin:25px 50px 0 0;
+}
+
+
+/* info pic left */
+.campain_img {
+	width:797px;
+	float:left;
+	margin:0;
+	position:relative;
+}
+.arrow_left {
+position: absolute;
+top:260px;
+left:20px;
+}
+.arrow_right {
+position: absolute;
+top:260px;
+right:20px;
+}
+
+
+/* info right */
+.new_info {
+	width:483px;
+	float:right;
+/* 	position:relative; */
+}
+.info_pic {
+	float:left;
+	margin-left:1px;
+}
+.new_info ul {
+	padding:0;
+	margin:0;
+}
+.new_info li {
+	height:104px;
+	background: url(../img/info_arrow.png) right center no-repeat;
+	background-color:#f2f2f2;
+	padding-right:20px;
+	margin:0 0px 1px 0;
+}
+h1 {
+	font-family:"ヒラギノ角ゴ Pro W6",HiraKakuPro-W6;
+	font-size:12px;
+	color:#82be28;
+	float:left;
+	margin-bottom:5px;
+	padding:0 0 0 20px;
+	text-decoration: none;
+}
+/* h1 span {
+	font-family:"ヒラギノ角ゴ Pro W6",HiraKakuPro-W6;
+	font-size:12px;
+	color:#cc0011;
+} */
+.new_info p {
+	width:312px;
+	font-family:"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic　ProN";
+	font-size:12px;
+	color:#676767;
+	float:left;
+	padding:0 0 0 20px;
+}
+
+
+/* footer */
+.footer {
+	height:216px;
+	background-color:#82be28;
+	text-align:center;
+}
+.footer_logo {
+	padding:25px 0 0 0;
+	text-align:center;
+}
+.footer_link {
+	width:1280px;
+}
+.footer_link p {
+	font-family:"ヒラギノ角ゴ Pro W3",HiraKakuPro-W3;
+	font-size:15px;
+	color:white;
+	display:inline-block;
+	margin:20px 60px 0 0px;
+}
+
+.copyright {
+	font-family:"ヒラギノ角ゴ Pro W3",HiraKakuPro-W3;
+	font-size:12px;
+	color:white;
+	padding-top:50px;
+}
+p {
+	padding:0;
+	margin:0;
+}
